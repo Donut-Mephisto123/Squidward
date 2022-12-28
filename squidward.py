@@ -1,6 +1,6 @@
 
 
-nama = input("siapa nama mu?\n>> ")
+nama = input("who is your name?\n>> ")
 def main():
     print("""
   _________            .__    .___                         .___ 
@@ -11,7 +11,7 @@ def main():
         \/    |__|             \/              \/           \/  
                                                                                 
     """)
-    print("hallo",nama,"selamat datang di toko kami")
+    print("hello",nama,"welcome to the warkop")
     print('''
     ┌────┬─────────────┬─────────┐
     │ no │   makanan   │  harga  │
@@ -23,6 +23,6 @@ def main():
     │  5 │ nasi kuning │  12.000 │
     └────┴─────────────┴─────────┘
     ''')
-    pilihan = int(input("masukan pilihan mu\n>> "))
+    pilihan = int(input("make your choice\n>> "))
 
 main()
